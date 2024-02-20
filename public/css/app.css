@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    float: left;
+}
+
+ul {
+    font-family: "Fredoka", sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    background-color: #EFF67B;
+    margin: 0;
+    padding: 10px;
+}
+
+.firefly-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.menu {
+    
+}
+
+.menu li{
+    display: inline;
+    width: 15px;
+}
+
+.menu li a{
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
