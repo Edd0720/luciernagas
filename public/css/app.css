@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Satisfy&display=swap');
+@import url('ps://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&display=swap');
 
 * {
     box-sizing: border-box;
@@ -8,41 +13,55 @@
 }
 
 :root {
+    /* colors */
     --main-color: #FFE48D;
-    --juver-color: #FFC300;
+    --juver-color: #FDBF60 ;
+    --naranjoso-color: #FF8911;
+    --otro-color: #822FD4;
+    --morrado-aimp3: #E3D6FF;
+
+    /* fonts */
+    --fredoka-font: "Fredoka", sans-serif;
+    --DM-serif: "DM Serif Display", serif;
+    --Dancin-script: "Dancing Script", cursive;
+    --Playfair-display:"Playfair Display", serif;
+    --Caveat-font:"Caveat", cursive;
+    --Oswald-font:"Oswald", sans-serif;
 }
 
 .menu  a {
     text-decoration: none;
     text-align: center;
-
 }
 
-ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 10px;
     overflow: hidden;
 }
 
-li {
+.menu li {
     float: left;
 }
 
-li a{
+.menu a{
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 10px;
     text-decoration: none;
-    text-align: center;
+
 }
 
-li a:hover {
+a:hover {
+    color: black;
+}
+
+li:hover {
     border-radius: 3px;
     background-color: var(--main-color);
 }
-
 
 .firefly-icon{
     width: 30px;
@@ -57,14 +76,259 @@ li a:hover {
 
 .menu {
     list-style-type: none; 
-    font-family: "Fredoka", sans-serif;
+    font-family: var(--fredoka-font);
     font-size: 18px;
     height: auto;
     display: flex;
     justify-content: space-between;
-    background-color: var(--juver-color);
+    background-color: var(--otro-color);
     transition: background-color 1.4s;
 }
 
+.salon-2{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.cuadrito {
+    position: absolute;
+    border: 2px solid white;
+    color: white;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 96vw;
+    height: 94vh; 
+    pointer-events: none;
+    z-index: 1;
+}
+
+.texto-encima {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.texto1{
+    padding-left: 20px;
+}
+
+.texto1  h1 {
+    font-family: "Satisfy", sans-serif;
+    text-align: left;
+    font-size: 6vw; 
+    margin: 0;
+}
+
+.texto1 h2 {
+    font-family: var(--fredoka-font);
+    font-weight: normal;
+    margin: 0;
+}
+
+.texto-encima > .texto2 {
+    font-family: var(--fredoka-font);
+    width: 45%;
+    margin: 0;
+}
 
 
+.salon{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: transform 10s;
+    z-index: 0;
+}
+
+.salon:hover {
+    transform: scale(1.5);
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 70% auto;
+    /* grid-auto-rows: minmax(100%, 60%); */
+}
+
+.caja1 {
+    border: none;
+    background-color: var(--morrado-aimp3);
+    padding: 20px;
+    grid-column: 1/2;
+    grid-row: 1/3;
+}
+
+.caja1 > .titulo1{
+    font-family: var(--Playfair-display);
+    color: black;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.caja1 > .contenido1 {
+    font-family: var(--fredoka-font);
+    font-size: 20px;
+}
+
+/* contenido de la caja 2 */
+
+.caja2 {
+    background-color: var(--otro-color);
+    text-align: center;
+    align-items: center;
+    display: block;
+    grid-column: 2/2;
+    grid-row: 1/3;
+    position: relative;
+}
+
+.contenido2 {
+    line-height: 40px;
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+.invitacion{
+    border-radius: 12px;
+    width: 300px;
+    height: 140px;
+}
+
+.invitacion h2 {
+    margin: 0;
+    font-family: var(--Oswald-font);
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.invitacion a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: black;
+    transition: background-color 1.4s;
+}
+
+.invitacion a:hover{
+    background-color: var(--otro-color);
+    border-radius: 10px;
+    color: white;
+}
+
+.anuncio{
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.anuncio h1{
+    font-family: var(--Dancin-script);
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cajonera-mayor{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cajonera {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+}
+
+.salonsito{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.contenido3{
+    grid-column: 1/2;
+}
+
+.fiesta{
+    font-family: var(--fredoka-font);
+}
+
+.contenido4{
+    font-size: 16px;
+    grid-column: 2/4;
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    flex-direction: column;
+}
+
+.titulo2{
+    font-family: var(--Playfair-display);
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.cajonera2{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+}
+
+.contenido5 > .titulo2{
+    text-align: end;
+}
+
+.contenido5{
+    grid-column: 1/3;
+    text-align: end;
+}
+
+.salon-bello{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.cajonera3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 80%;
+}
+
+.contenido7{
+    grid-column: 1/2;
+}
+
+.convivio{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.contenido8{
+    font-size: 16px;
+    grid-column: 2/4;
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    flex-direction: column;
+}
