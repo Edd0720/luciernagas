@@ -9,4 +9,8 @@ class HomeController extends Controller
     function inicio() {
         return view('home', ['titulo' => 'Luciernagas']);
     }
+
+    function login(){
+        return view('login');
+    }
 }

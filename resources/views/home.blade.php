@@ -5,7 +5,7 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="ie=edge">
    <link rel="stylesheet" href="css/app.css">
-   <link rel="icon" href="img/firefly.png">
+   <link rel="icon" href="img/luciernaga.png">
    <title>{{$titulo}}</title>
 </head>
 <body>
@@ -16,8 +16,8 @@
             <a href="">| +52 933 137 4753</a>
          </div>     
          <ul>     
-            <li><a href="{{ url('login') }}">Inicio</a></li>
-            <li><a href="">Reservar</a></li>
+            <li><a href="">Inicio</a></li>
+            <li><a href="login">Reservar</a></li>
             <li><a href="">Registrarse</a></li>
          </ul>
       </nav>
@@ -134,7 +134,20 @@
       </div>
    </div>
    <footer>
-      
+      <div class="patas">
+         <div class="cajonera-patas">
+            <div class="contenido-pata1">
+               Dirección
+               <br>
+               Villahermosa, Centro, Tabasco
+            </div>
+            <div class="contenido-pata2">
+               Correo:
+               <br>
+               uncorreo@quiensabe.com
+            </div>
+         </div>
+      </div>
    </footer>
 </div>
 </body>
