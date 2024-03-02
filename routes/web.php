@@ -18,4 +18,9 @@ use Illuminate\Support\Facades\Route;
 Route::controller(HomeController::class)->group(function() {
     Route::get('/inicio','inicio');
     Route::get('/login','login');
+    Route::get('/registro','registro');
+});
+
+Route::controller(UserController::class)->group(function(){
+    Route::get('/perfil', 'profile');
 });

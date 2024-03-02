@@ -13,4 +13,8 @@ class HomeController extends Controller
     function login(){
         return view('login');
     }
+
+    function registro() {
+        return view('registro');
+    }
 }

@@ -17,8 +17,8 @@
          </div>     
          <ul>     
             <li><a href="">Inicio</a></li>
-            <li><a href="login">Reservar</a></li>
-            <li><a href="">Registrarse</a></li>
+            <li><a href="login">Iniciar sesion</a></li>
+            <li><a href="registro">Registrarse</a></li>
          </ul>
       </nav>
    </header>
@@ -61,7 +61,7 @@
       <div class="caja2">
          <div class="contenido2">
             <div class="invitacion">
-               <h2><a href="">Inicia sesion</a>
+               <h2><a href="login">Inicia sesion</a>
                   <br>
                   o 
                   <br>

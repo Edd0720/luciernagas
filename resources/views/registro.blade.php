@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="icon" href="img/luciernaga.png">
     <link rel="stylesheet" href="css/style.css">
-    <title>Iniciar sesión</title>
+    <title>Registro</title>
 </head>
 <body>
     <div class="conteiner">
@@ -14,9 +14,17 @@
         <div class="amigui">
             <div class="form">
                 <div class="contenido-form">
-                    <div class="este">
-                    <h1>Iniciar sesión</h1>
+                    <div class="hola">
+                    <h1>Registrarse</h1>
+                    <br>
                         <form action="">
+                            <label for="name">Ingrese su nombre completo</label>
+                            <br>
+                            <br>
+                            <input id="name" placeholder="Nombre completo">
+                            <br>
+                            <br>
+                            <br>
                             <label for="email">Ingrese su correo</label>
                             <br>
                             <br>
