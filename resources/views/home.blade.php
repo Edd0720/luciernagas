@@ -65,7 +65,7 @@
                   <br>
                   o 
                   <br>
-                  <a href="">Crea una cuenta nueva</a>
+                  <a href="registro">Crea una cuenta nueva</a>
                </h2>
             </div> 
          </div>
