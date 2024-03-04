@@ -26,4 +26,5 @@ Route::controller(UserController::class)->group(function(){
     Route::get('/sucursales', 'sucursales');
     Route::get('/services', 'services');
     Route::get('/reservar', 'reservar');
+    Route::get('/reservar', 'reservar');
 });

@@ -32,7 +32,7 @@
                         <a href="reservar"><img src="svg/bell.svg"></a>
                         <a href="sucursales"><img src="svg/building.svg"></a>
                         <a href="services"><img src="svg/package.svg"></a>
-                        <a href="parties"><img src="svg/party.svg"></a>
+                        <a href="packages"><img src="svg/party.svg"></a>
                     </div>
                 </div>
             </nav>

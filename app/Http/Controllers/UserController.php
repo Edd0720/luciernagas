@@ -10,10 +10,12 @@ class UserController extends Controller
         return view('perfil', ['titulo' => 'perfil']);
     }
 
+    // FUNCIONES PARA LA SECCION DE ICONOS
+
     function sucursales() {
         return view('plantillas.user.buildind', ['titulo' => 'sucursales']);
     }
-
+    
     function services() {
         return view('plantillas.user.services', ['titulo' => 'services']);
     }

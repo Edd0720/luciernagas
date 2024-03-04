@@ -115,7 +115,7 @@ ul li, a {
     overflow: hidden;
 }
 
-/* BARRA DE NAVEGACION */
+/* ICONOS DE LA BARRA DE NAVEGACION */
 
 .contenido-iconos {
     width: 100%;
@@ -150,17 +150,18 @@ ul li, a {
     width: 75%;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 10px;
     justify-items: center;
 }
 
 .sucursales-tarjeta {
-    width: 50%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    font-family: var(--fredoka-font);
 }
 
 .frase {
