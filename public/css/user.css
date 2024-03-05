@@ -139,6 +139,8 @@ ul li, a {
 
 /* CONTENIDO DEBAJO DE LA BARRA DE NAVEGACION */
 
+/* CONFIGURACIÓN DEL CONTENIDO DEBAJO */
+
 .debajo {
     width: 100%;
     height: auto;
@@ -155,6 +157,8 @@ ul li, a {
     gap: 10px;
     justify-items: center;
 }
+
+/* AQUI PUEDEN EMPEZAR A AÑADIR NUEVOS CONTENIDOS EN LA SECCION DE ABAJO */
 
 .sucursales-tarjeta {
     width: 100%;

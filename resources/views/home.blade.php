@@ -16,7 +16,7 @@
             <a href="">| +52 933 137 4753</a>
          </div>     
          <ul>     
-            <li><a href="">Inicio</a></li>
+            <li><a href="publicidad">Inicio</a></li>
             <li><a href="login">Iniciar sesion</a></li>
             <li><a href="registro">Registrarse</a></li>
          </ul>

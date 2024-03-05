@@ -17,4 +17,8 @@ class HomeController extends Controller
     function registro() {
         return view('registro');
     }
+
+    function publicidad() {
+        return view('publicidad');
+    }
 }

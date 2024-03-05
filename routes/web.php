@@ -19,6 +19,7 @@ Route::controller(HomeController::class)->group(function() {
     Route::get('/inicio','inicio');
     Route::get('/login','login');
     Route::get('/registro','registro');
+    Route::get('/publicidad','publicidad');
 });
 
 Route::controller(UserController::class)->group(function(){
