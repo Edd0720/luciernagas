@@ -38,7 +38,7 @@
                             <input type="password" name="password" id="password">
                             <br>
                             <br>
-                            <button type="submit" class="botoncito">Entrar</button>
+                            <button type="submit" class="botoncito"><a href="reservar">Entrar</a></button>
                         </form>
                     </div>
                 </div>
