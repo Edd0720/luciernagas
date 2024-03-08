@@ -3,6 +3,6 @@
 
 @section('titulo')
 
-    <h1>Esta es la seccion de servicios</h1>
+<h2>Esta es la seccion de servicios</h2>
 
 @endsection
