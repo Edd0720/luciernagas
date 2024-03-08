@@ -134,8 +134,9 @@ label{
 }
 
 
-.botoncito{
+.botoncito, a{
     background-color: var(--otro-color);
+    text-decoration: none;
     color: white;
     border: none;
     border-radius: 10px;

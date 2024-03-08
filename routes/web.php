@@ -23,9 +23,6 @@ Route::controller(HomeController::class)->group(function() {
 });
 
 Route::controller(UserController::class)->group(function(){
-    Route::get('/perfil', 'profile');
-    Route::get('/sucursales', 'sucursales');
-    Route::get('/services', 'services');
+    Route::get('/profile', 'profile');
     Route::get('/reservar', 'reservar');
-    Route::get('/packages', 'packages');
 });
